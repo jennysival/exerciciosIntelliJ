@@ -24,6 +24,11 @@ public class miniDesafio1Calculadora {
         System.out.println("4. Divisão");
 
 
-
     }
+
+    public static void adicao(float num1, float num2){
+        float soma = num1+num2;
+        System.out.println(num1+" + "+num2+" = "+soma);
+    }
+
 }
