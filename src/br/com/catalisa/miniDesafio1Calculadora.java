@@ -77,7 +77,7 @@ public class miniDesafio1Calculadora {
 
     public static void botaoSair(){
         Scanner leitor = new Scanner(System.in);
-        System.out.println("- Digite [1] para sair; ");
+        System.out.println("Digite [1] para sair; ");
         int opc = leitor.nextInt();
 
         if(opc == 1){
